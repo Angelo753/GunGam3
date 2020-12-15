@@ -1,0 +1,12 @@
+force-gamemode:
+  enabled: true
+  gamemode: ADVENTURE
+scoreboard:
+  title: '&6&lGunGame'
+  data:
+    - '&6&lKills: &7%agungame_kills%'
+    - ''
+    - '&6&lKills: &7%agungame_deaths%'
+    - ''
+    - '&6&lKills: &7%agungame_kd%'
+    - '&b&lyour.server.com'

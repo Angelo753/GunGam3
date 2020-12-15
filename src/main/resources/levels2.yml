@@ -1,0 +1,347 @@
+Levels:
+  0:
+    Weapon: WOOD_AXE:Wooden Axe
+  1:
+    Weapon: WOOD_SWORD:Wooden Sword
+  2:
+    Weapon: WOOD_SWORD:Wooden Sword
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic
+  3:
+    Weapon: WOOD_SWORD:Wooden Sword
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic
+    Boots: LEATHER_BOOTS:Leather Boots
+  4:
+    Weapon: WOOD_SWORD:Wooden Sword
+    Helmet: LEATHER_HELMET:Leather Cap
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic
+    Boots: LEATHER_BOOTS:Leather Boots
+  5:
+    Weapon: WOOD_SWORD:Wooden Sword
+    Helmet: LEATHER_HELMET:Leather Cap
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic
+    Leggings: LEATHER_LEGGINGS:Leather Pants
+    Boots: LEATHER_BOOTS:Leather Boots
+  6:
+    Weapon: WOOD_AXE:Wooden Axe:DAMAGE_ALL:1
+    Helmet: LEATHER_HELMET:Leather Cap
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic
+    Leggings: LEATHER_LEGGINGS:Leather Pants
+    Boots: LEATHER_BOOTS:Leather Boots
+  7:
+    Weapon: WOOD_SWORD:Wooden Sword:DAMAGE_ALL:1
+    Helmet: LEATHER_HELMET:Leather Cap
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic
+    Leggings: LEATHER_LEGGINGS:Leather Pants
+    Boots: LEATHER_BOOTS:Leather Boots
+  8:
+    Weapon: WOOD_SWORD:Wooden Sword:DAMAGE_ALL:1
+    Helmet: LEATHER_HELMET:Leather Cap
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic:PROTECTION_ENVIRONMENTAL:1
+    Leggings: LEATHER_LEGGINGS:Leather Pants
+    Boots: LEATHER_BOOTS:Leather Boots
+  9:
+    Weapon: WOOD_SWORD:Wooden Sword:DAMAGE_ALL:1
+    Helmet: LEATHER_HELMET:Leather Cap
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic:PROTECTION_ENVIRONMENTAL:1
+    Leggings: LEATHER_LEGGINGS:Leather Pants
+    Boots: LEATHER_BOOTS:Leather Boots:PROTECTION_ENVIRONMENTAL:1
+  10:
+    Weapon: WOOD_SWORD:Wooden Sword:DAMAGE_ALL:1
+    Helmet: LEATHER_HELMET:Leather Cap:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic:PROTECTION_ENVIRONMENTAL:1
+    Leggings: LEATHER_LEGGINGS:Leather Pants
+    Boots: LEATHER_BOOTS:Leather Boots:PROTECTION_ENVIRONMENTAL:1
+  11:
+    Weapon: WOOD_SWORD:Wooden Sword:DAMAGE_ALL:1
+    Helmet: LEATHER_HELMET:Leather Cap:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic:PROTECTION_ENVIRONMENTAL:1
+    Leggings: LEATHER_LEGGINGS:Leather Pants:PROTECTION_ENVIRONMENTAL:1
+    Boots: LEATHER_BOOTS:Leather Boots:PROTECTION_ENVIRONMENTAL:1
+  12:
+    Weapon: GOLD_AXE:Golden Axe
+    Helmet: LEATHER_HELMET:Leather Cap:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic:PROTECTION_ENVIRONMENTAL:1
+    Leggings: LEATHER_LEGGINGS:Leather Pants:PROTECTION_ENVIRONMENTAL:1
+    Boots: LEATHER_BOOTS:Leather Boots:PROTECTION_ENVIRONMENTAL:1
+  13:
+    Weapon: GOLD_SWORD:Golden Sword
+    Helmet: LEATHER_HELMET:Leather Cap:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: LEATHER_CHESTPLATE:Leather Tunic:PROTECTION_ENVIRONMENTAL:1
+    Leggings: LEATHER_LEGGINGS:Leather Pants:PROTECTION_ENVIRONMENTAL:1
+    Boots: LEATHER_BOOTS:Leather Boots:PROTECTION_ENVIRONMENTAL:1
+  14:
+    Weapon: GOLD_SWORD:Golden Sword
+    Helmet: LEATHER_HELMET:Leather Cap:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate
+    Leggings: LEATHER_LEGGINGS:Leather Pants:PROTECTION_ENVIRONMENTAL:1
+    Boots: LEATHER_BOOTS:Leather Boots:PROTECTION_ENVIRONMENTAL:1
+  15:
+    Weapon: GOLD_SWORD:Golden Sword
+    Helmet: LEATHER_HELMET:Leather Cap:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate
+    Leggings: LEATHER_LEGGINGS:Leather Pants:PROTECTION_ENVIRONMENTAL:1
+    Boots: GOLD_BOOTS:Golden Boots
+  16:
+    Weapon: GOLD_SWORD:Golden Sword
+    Helmet: GOLD_HELMET:Golden Helmet
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate
+    Leggings: LEATHER_LEGGINGS:Leather Pants:PROTECTION_ENVIRONMENTAL:1
+    Boots: GOLD_BOOTS:Golden Boots
+  17:
+    Weapon: GOLD_SWORD:Golden Sword
+    Helmet: GOLD_HELMET:Golden Helmet
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate
+    Leggings: GOLD_LEGGINGS:Golden Leggings
+    Boots: GOLD_BOOTS:Golden Boots
+  18:
+    Weapon: GOLD_AXE:Golden Axe:DAMAGE_ALL:1
+    Helmet: GOLD_HELMET:Golden Helmet
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate
+    Leggings: GOLD_LEGGINGS:Golden Leggings
+    Boots: GOLD_BOOTS:Golden Boots
+  19:
+    Weapon: GOLD_SWORD:Golden Sword:DAMAGE_ALL:1
+    Helmet: GOLD_HELMET:Golden Helmet
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate
+    Leggings: GOLD_LEGGINGS:Golden Leggings
+    Boots: GOLD_BOOTS:Golden Boots
+  20:
+    Weapon: GOLD_SWORD:Golden Sword:DAMAGE_ALL:1
+    Helmet: GOLD_HELMET:Golden Helmet
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: GOLD_LEGGINGS:Golden Leggings
+    Boots: GOLD_BOOTS:Golden Boots
+  21:
+    Weapon: GOLD_SWORD:Golden Sword:DAMAGE_ALL:1
+    Helmet: GOLD_HELMET:Golden Helmet
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: GOLD_LEGGINGS:Golden Leggings
+    Boots: GOLD_BOOTS:Golden Boots:PROTECTION_ENVIRONMENTAL:1
+  22:
+    Weapon: GOLD_SWORD:Golden Sword:DAMAGE_ALL:1
+    Helmet: GOLD_HELMET:Golden Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: GOLD_LEGGINGS:Golden Leggings
+    Boots: GOLD_BOOTS:Golden Boots:PROTECTION_ENVIRONMENTAL:1
+  23:
+    Weapon: GOLD_SWORD:Golden Sword:DAMAGE_ALL:1
+    Helmet: GOLD_HELMET:Golden Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: GOLD_LEGGINGS:Golden Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: GOLD_BOOTS:Golden Boots:PROTECTION_ENVIRONMENTAL:1
+  24:
+    Weapon: STONE_AXE:Stone Axe
+    Helmet: GOLD_HELMET:Golden Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: GOLD_LEGGINGS:Golden Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: GOLD_BOOTS:Golden Boots:PROTECTION_ENVIRONMENTAL:1
+  25:
+    Weapon: STONE_SWORD:Stone Sword
+    Helmet: GOLD_HELMET:Golden Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: GOLD_CHESTPLATE:Golden Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: GOLD_LEGGINGS:Golden Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: GOLD_BOOTS:Golden Boots:PROTECTION_ENVIRONMENTAL:1
+  26:
+    Weapon: STONE_SWORD:Stone Sword
+    Helmet: GOLD_HELMET:Golden Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate
+    Leggings: GOLD_LEGGINGS:Golden Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: GOLD_BOOTS:Golden Boots:PROTECTION_ENVIRONMENTAL:1
+  27:
+    Weapon: STONE_SWORD:Stone Sword
+    Helmet: GOLD_HELMET:Golden Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate
+    Leggings: GOLD_LEGGINGS:Golden Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: CHAINMAIL_BOOTS:Chain Boots
+  28:
+    Weapon: STONE_SWORD:Stone Sword
+    Helmet: CHAINMAIL_HELMET:Chain Helmet
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate
+    Leggings: GOLD_LEGGINGS:Golden Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: CHAINMAIL_BOOTS:Chain Boots
+  29:
+    Weapon: STONE_SWORD:Stone Sword
+    Helmet: CHAINMAIL_HELMET:Chain Helmet
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings
+    Boots: CHAINMAIL_BOOTS:Chain Boots
+  30:
+    Weapon: STONE_AXE:Stone Axe:DAMAGE_ALL:1
+    Helmet: CHAINMAIL_HELMET:Chain Helmet
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings
+    Boots: CHAINMAIL_BOOTS:Chain Boots
+  31:
+    Weapon: STONE_SWORD:Stone Sword:DAMAGE_ALL:1
+    Helmet: CHAINMAIL_HELMET:Chain Helmet
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings
+    Boots: CHAINMAIL_BOOTS:Chain Boots
+  32:
+    Weapon: STONE_SWORD:Stone Sword:DAMAGE_ALL:1
+    Helmet: CHAINMAIL_HELMET:Chain Helmet
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings
+    Boots: CHAINMAIL_BOOTS:Chain Boots
+  33:
+    Weapon: STONE_SWORD:Stone Sword:DAMAGE_ALL:1
+    Helmet: CHAINMAIL_HELMET:Chain Helmet
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings
+    Boots: CHAINMAIL_BOOTS:Chain Boots:PROTECTION_ENVIRONMENTAL:1
+  34:
+    Weapon: STONE_SWORD:Stone Sword:DAMAGE_ALL:1
+    Helmet: CHAINMAIL_HELMET:Chain Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings
+    Boots: CHAINMAIL_BOOTS:Chain Boots:PROTECTION_ENVIRONMENTAL:1
+  35:
+    Weapon: STONE_SWORD:Stone Sword:DAMAGE_ALL:1
+    Helmet: CHAINMAIL_HELMET:Chain Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: CHAINMAIL_BOOTS:Chain Boots:PROTECTION_ENVIRONMENTAL:1
+  36:
+    Weapon: IRON_AXE:Iron Axe
+    Helmet: CHAINMAIL_HELMET:Chain Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: CHAINMAIL_BOOTS:Chain Boots:PROTECTION_ENVIRONMENTAL:1
+  37:
+    Weapon: IRON_SWORD:Iron Sword
+    Helmet: CHAINMAIL_HELMET:Chain Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: CHAINMAIL_CHESTPLATE:Chain Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: CHAINMAIL_BOOTS:Chain Boots:PROTECTION_ENVIRONMENTAL:1
+  38:
+    Weapon: IRON_SWORD:Iron Sword
+    Helmet: CHAINMAIL_HELMET:Chain Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: CHAINMAIL_BOOTS:Chain Boots:PROTECTION_ENVIRONMENTAL:1
+  39:
+    Weapon: IRON_SWORD:Iron Sword
+    Helmet: CHAINMAIL_HELMET:Chain Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: IRON_BOOTS:Iron Boots
+  40:
+    Weapon: IRON_SWORD:Iron Sword
+    Helmet: IRON_HELMET:Iron Helmet
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate
+    Leggings: CHAINMAIL_LEGGINGS:Chain Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: IRON_BOOTS:Iron Boots
+  41:
+    Weapon: IRON_SWORD:Iron Sword
+    Helmet: IRON_HELMET:Iron Helmet
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate
+    Leggings: IRON_LEGGINGS:Iron Leggings
+    Boots: IRON_BOOTS:Iron Boots
+  42:
+    Weapon: IRON_AXE:Iron Axe:DAMAGE_ALL:1
+    Helmet: IRON_HELMET:Iron Helmet
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate
+    Leggings: IRON_LEGGINGS:Iron Leggings
+    Boots: IRON_BOOTS:Iron Boots
+  43:
+    Weapon: IRON_SWORD:Iron Sword:DAMAGE_ALL:1
+    Helmet: IRON_HELMET:Iron Helmet
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate
+    Leggings: IRON_LEGGINGS:Iron Leggings
+    Boots: IRON_BOOTS:Iron Boots
+  44:
+    Weapon: IRON_SWORD:Iron Sword:DAMAGE_ALL:1
+    Helmet: IRON_HELMET:Iron Helmet
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: IRON_LEGGINGS:Iron Leggings
+    Boots: IRON_BOOTS:Iron Boots
+  45:
+    Weapon: IRON_SWORD:Iron Sword:DAMAGE_ALL:1
+    Helmet: IRON_HELMET:Iron Helmet
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: IRON_LEGGINGS:Iron Leggings
+    Boots: IRON_BOOTS:Iron Boots:PROTECTION_ENVIRONMENTAL:1
+  46:
+    Weapon: IRON_SWORD:Iron Sword:DAMAGE_ALL:1
+    Helmet: IRON_HELMET:Iron Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: IRON_LEGGINGS:Iron Leggings
+    Boots: IRON_BOOTS:Iron Boots:PROTECTION_ENVIRONMENTAL:1
+  47:
+    Weapon: IRON_SWORD:Iron Sword:DAMAGE_ALL:1
+    Helmet: IRON_HELMET:Iron Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: IRON_LEGGINGS:Iron Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: IRON_BOOTS:Iron Boots:PROTECTION_ENVIRONMENTAL:1
+  48:
+    Weapon: DIAMOND_AXE:Diamond Axe
+    Helmet: IRON_HELMET:Iron Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: IRON_LEGGINGS:Iron Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: IRON_BOOTS:Iron Boots:PROTECTION_ENVIRONMENTAL:1
+  49:
+    Weapon: DIAMOND_SWORD:Diamond Sword
+    Helmet: IRON_HELMET:Iron Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: IRON_CHESTPLATE:Iron Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: IRON_LEGGINGS:Iron Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: IRON_BOOTS:Iron Boots:PROTECTION_ENVIRONMENTAL:1
+  50:
+    Weapon: DIAMOND_SWORD:Diamond Sword
+    Helmet: IRON_HELMET:Iron Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate
+    Leggings: IRON_LEGGINGS:Iron Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: IRON_BOOTS:Iron Boots:PROTECTION_ENVIRONMENTAL:1
+  51:
+    Weapon: DIAMOND_SWORD:Diamond Sword
+    Helmet: IRON_HELMET:Iron Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate
+    Leggings: IRON_LEGGINGS:Iron Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: DIAMOND_BOOTS:Diamond Boots
+  52:
+    Weapon: DIAMOND_SWORD:Diamond Sword
+    Helmet: DIAMOND_HELMET:Diamond Helmet
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate
+    Leggings: IRON_LEGGINGS:Iron Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: DIAMOND_BOOTS:Diamond Boots
+  53:
+    Weapon: DIAMOND_SWORD:Diamond Sword
+    Helmet: DIAMOND_HELMET:Diamond Helmet
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings
+    Boots: DIAMOND_BOOTS:Diamond Boots
+  54:
+    Weapon: DIAMOND_AXE:Diamond Axe:DAMAGE_ALL:1
+    Helmet: DIAMOND_HELMET:Diamond Helmet
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings
+    Boots: DIAMOND_BOOTS:Diamond Boots
+  55:
+    Weapon: DIAMOND_SWORD:Diamond Sword:DAMAGE_ALL:1
+    Helmet: DIAMOND_HELMET:Diamond Helmet
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings
+    Boots: DIAMOND_BOOTS:Diamond Boots
+  56:
+    Weapon: DIAMOND_SWORD:Diamond Sword:DAMAGE_ALL:1
+    Helmet: DIAMOND_HELMET:Diamond Helmet
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings
+    Boots: DIAMOND_BOOTS:Diamond Boots
+  57:
+    Weapon: DIAMOND_SWORD:Diamond Sword:DAMAGE_ALL:1
+    Helmet: DIAMOND_HELMET:Diamond Helmet
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings
+    Boots: DIAMOND_BOOTS:Diamond Boots:PROTECTION_ENVIRONMENTAL:1
+  58:
+    Weapon: DIAMOND_SWORD:Diamond Sword:DAMAGE_ALL:1
+    Helmet: DIAMOND_HELMET:Diamond Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings
+    Boots: DIAMOND_BOOTS:Diamond Boots:PROTECTION_ENVIRONMENTAL:1
+  59:
+    Weapon: DIAMOND_SWORD:Diamond Sword:DAMAGE_ALL:1
+    Helmet: DIAMOND_HELMET:Diamond Helmet:PROTECTION_ENVIRONMENTAL:1
+    Chestplate: DIAMOND_CHESTPLATE:Diamond Chestplate:PROTECTION_ENVIRONMENTAL:1
+    Leggings: DIAMOND_LEGGINGS:Diamond Leggings:PROTECTION_ENVIRONMENTAL:1
+    Boots: DIAMOND_BOOTS:Diamond Boots:PROTECTION_ENVIRONMENTAL:1

@@ -1,0 +1,5 @@
+name: AngelGunGame
+version: @version@
+main: cz.angelo.angelgungame.Main
+api-version: 1.16
+authors: [ Angelo753 ]
