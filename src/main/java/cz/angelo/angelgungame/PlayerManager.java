@@ -1,10 +1,14 @@
 package cz.angelo.angelgungame;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 
 import java.io.*;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Locale;
 
 public class PlayerManager implements PlayerInterface {
 
@@ -17,13 +21,12 @@ public class PlayerManager implements PlayerInterface {
 	int kills;
 	int deaths;
 	int level;
-	double KD;
+	double kd;
 
-	public PlayerManager (Player player, int level, int kills, int deaths, double KD){
+	public PlayerManager (Player player, int level, int kills, int deaths){
 		this.player = player;
 		this.kills = kills;
 		this.deaths = deaths;
-		this.KD = KD;
 		this.level = level;
 	}
 
@@ -38,15 +41,15 @@ public class PlayerManager implements PlayerInterface {
 	public void increaseLevel() {
 		this.level = this.level++;
 		player.setLevel(this.level);
-		this.gmanager.setLevel(player);
 	}
 
 	@Override
 	public void decreaseLevel() {
-		if (this.level >= 0) {
-			this.level = this.level--;
-			player.setLevel(this.level);
-			this.gmanager.setLevel(player);
+		Bukkit.broadcastMessage("1");
+		if (level > 0) {
+			Bukkit.broadcastMessage("2");
+			level = level--;
+			player.setLevel(level);
 		}
 	}
 
@@ -109,13 +112,28 @@ public class PlayerManager implements PlayerInterface {
 	}
 
 	@Override
+	public void addDeath() {
+		deaths++;
+	}
+
+	@Override
+	public void addKill() {
+		kills++;
+	}
+
+	@Override
 	public int getLevel() {
 		return this.level;
 	}
 
 	@Override
-	public double getKD() {
-		return KD;
+	public double kd() {
+		if (deaths == 0){ ;
+			return kills;
+		}else {
+			kd = kills / deaths;
+			return Math.round(kd * 100 ) / 100;
+		}
 	}
 
 }

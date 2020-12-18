@@ -23,7 +23,7 @@ public class GameMechanics implements Listener {
 		Player p = e.getPlayer();
 
 		//Register player
-		PlayerManager playerManager = new PlayerManager(p,0, 0, 0, 0);
+		PlayerManager playerManager = new PlayerManager(p,0, 0, 0);
 		Main.instance.phash.put(p.getUniqueId(), playerManager);
 
 		//Configuration file
@@ -60,10 +60,14 @@ public class GameMechanics implements Listener {
 				this.cancel();
 			}
 		}.runTaskTimer(Main.instance, 5, 0);
-		instance.phash.get(p.getUniqueId()).decreaseLevel();
+		Main.instance.phash.get(p.getUniqueId()).decreaseLevel();
+		Main.instance.phash.get(p.getUniqueId()).addDeath();
+		Main.instance.phash.get(p.getUniqueId()).kd();
 		if (p.getKiller() instanceof Player) {
 			Player killer = p.getKiller();
-			instance.phash.get(killer).increaseLevel();
+			Main.instance.phash.get(killer.getUniqueId()).increaseLevel();
+			Main.instance.phash.get(killer.getUniqueId()).addKill();
+			Main.instance.phash.get(killer.getUniqueId()).kd();
 		}
 	}
 

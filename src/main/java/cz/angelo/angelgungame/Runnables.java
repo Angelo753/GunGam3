@@ -1,5 +1,6 @@
 package cz.angelo.angelgungame;
 
+import me.clip.placeholderapi.PlaceholderAPI;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -19,9 +20,8 @@ public class Runnables extends BukkitRunnable {
 	Main plugin;
 	private GameManager gmanager;
 
-	Scoreboard sb = Bukkit.getScoreboardManager().getNewScoreboard();
-	Objective obj = sb.registerNewObjective("aaa", "bbb");
-	Team agungame = sb.registerNewTeam("agungame");
+	public static Scoreboard sb;
+	public static Objective obj;
 
 	public Runnables(Main plugin){
 		this.plugin = plugin;
@@ -35,9 +35,12 @@ public class Runnables extends BukkitRunnable {
 	}
 
 	public void setScoreboard(Player p) {
+		sb = Bukkit.getScoreboardManager().getNewScoreboard();
+		obj = sb.registerNewObjective("aaa", "bbb");
+		obj.setDisplaySlot(DisplaySlot.SIDEBAR);
+		Team agungame = sb.registerNewTeam("agungame");
 		agungame.setPrefix("");
 		agungame.setSuffix("");
-		obj.setDisplaySlot(DisplaySlot.SIDEBAR);
 		agungame.addPlayer(p);
 		String title = Config.get("config").getString("scoreboard.title");
 		obj.setDisplayName(Main.instance.color(title));
@@ -45,8 +48,8 @@ public class Runnables extends BukkitRunnable {
 		Collections.reverse(data);
 		String text = " ";
 		for (int i = 0; i < data.size(); i++) {
-			agungame.addEntry(Main.instance.color(data.get(i) + text));
-			obj.getScore(Main.instance.color(data.get(i) + text)).setScore(i);
+			agungame.addEntry(PlaceholderAPI.setPlaceholders(p, Main.instance.color(data.get(i) + text)));
+			obj.getScore(PlaceholderAPI.setPlaceholders(p, Main.instance.color(data.get(i) + text))).setScore(i);
 			text = text + " ";
 		}
 		p.setScoreboard(sb);

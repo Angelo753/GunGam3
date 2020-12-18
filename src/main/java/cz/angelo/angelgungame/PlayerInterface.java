@@ -19,7 +19,9 @@ public interface PlayerInterface {
 	int getKills();
 	int getDeaths();
 	int getLevel();
-	double getKD();
+	double kd();
+	void addDeath();
+	void addKill();
 
 
 }

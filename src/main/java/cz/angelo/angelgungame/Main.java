@@ -20,8 +20,9 @@ public final class Main extends JavaPlugin {
 		instance = this;
 		eventRegister();
 		Config.reload();
+		new PlaceholderAPI(this).register();
 		for (Player p : Bukkit.getOnlinePlayers()){
-			PlayerManager playerManager = new PlayerManager(p, 0, 0, 0, 0);
+			PlayerManager playerManager = new PlayerManager(p, 0, 0, 0);
 			phash.put(p.getUniqueId(), playerManager);
 			phash.get(p.getUniqueId()).createFile();
 		}
